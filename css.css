@@ -28,14 +28,14 @@ The designs were created to the following widths:
 body {
     background-color: rgb(213,225,239);
     margin: auto;
-    font-size: 15px;
+    font-size: 1rem;
     font-family: "outfit";
     
 }
 
 
 img {
-    width: 340px;
+    max-width: 100%;
     height: auto;
     border-radius: 4%;
 }
@@ -45,14 +45,12 @@ img {
     height: auto;
     border-radius: 6%;
     padding: 18px;
-    margin:  340px auto;
-    
+    box-sizing: border-box;    
 
 }
 
 
 .bottom-container{
-    height:140px;
-    padding:20px;
+    max-height:100%;
     text-align: center;
 }
